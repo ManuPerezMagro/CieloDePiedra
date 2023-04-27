@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+
 /* barra de navegacion */
 header{
     background-color: #bc6c25;
@@ -19,6 +20,7 @@ header{
 .font-size{
     font-size: 20px;
 }
+
 
 /* portada del index */
 .portada h1{
@@ -45,6 +47,8 @@ header{
     margin-bottom: 25px;
     height: 920px;
 }
+
+
 /* cuerpo del index*/
 h1{
     text-align: center;
@@ -102,16 +106,72 @@ body {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+
 /* cuerpo seccion cabañas */
 .contenido_cabañas{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
     "img div"
     "div img"
     "img div";
 }
+.contenido_cabañas div img{
+    width: 96%;
+    height: 600px;
+    box-shadow: 2px 2px 2px rgb(31, 31, 31) ;
+    margin: 15px;
+}
+
+
+/* cuerpo seccion habitaciones */
+.contenido_habitaciones{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "img div"
+    "div img"
+    "img div";
+}
+.contenido_habitaciones div img{
+    width: 96%;
+    height: 600px;
+    box-shadow: 2px 2px 2px rgb(31, 31, 31) ;
+    margin: 15px;
+}
+.galeria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.galeria img{
+    width: 90%;
+    height: 800px;
+    box-shadow: 2px 2px 2px rgb(31, 31, 31);
+}
+
+
+/* contenido seccion servicio */
+.contenido_servicios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "img div"
+    "div img";
+}
+.contenido_servicios div img{
+    width: 96%;
+    height: 600px;
+    box-shadow: 2px 2px 2px rgb(31, 31, 31) ;
+    margin: 15px;
+}
+
+
 /* pie de pagina */
 footer {
     display: flex;
@@ -138,11 +198,13 @@ footer h2 {
     margin: 15px;
 }
 
+
+
 @media screen and (max-width: 600px){
     /* modificaciones de la portada */
     .portada {
         background-image: url(../img/foto-portada-provisoria-mobile.jpg);
-        height: 400px;
+        height: 780px;
     }
     .portada h1{
         font-size: 4rem;
