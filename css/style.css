@@ -109,38 +109,37 @@ body {
 
 
 /* cuerpo seccion cabañas */
-.contenido_cabañas{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "img div"
-    "div img"
-    "img div";
+.contenido_cabanas div{
+    display: flex;
 }
-.contenido_cabañas div img{
-    width: 96%;
-    height: 600px;
-    box-shadow: 2px 2px 2px rgb(31, 31, 31) ;
-    margin: 15px;
+.card_mio{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 35px;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px rgb(31, 31, 31);
+}
+.contenido_cabanas div div{
+    flex-direction: column;
+}
+.list_cab{
+    width: 50%;
+    margin: 20px;
+}
+.img_cab{
+    width: 80%;
+}
+.cab_reverse{
+    flex-direction: row-reverse;
 }
 
 
 /* cuerpo seccion habitaciones */
-.contenido_habitaciones{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: 
-    "img div"
-    "div img"
-    "img div";
+.contenido_habitaciones div{
+    display: flex;
 }
-.contenido_habitaciones div img{
-    width: 96%;
-    height: 600px;
-    box-shadow: 2px 2px 2px rgb(31, 31, 31) ;
-    margin: 15px;
+.contenido_habitaciones div div {
+    flex-direction: column;
 }
 .galeria{
     display: flex;
@@ -149,10 +148,10 @@ body {
     align-items: center;
 }
 .galeria img{
-    width: 90%;
+    width: 100%;
     height: 800px;
-    box-shadow: 2px 2px 2px rgb(31, 31, 31);
 }
+
 
 
 /* contenido seccion servicio */
@@ -235,5 +234,24 @@ footer h2 {
         height: 50px;
         width: 50px;
         margin-bottom: 15px;
+    }
+    /* secciones */
+
+    /* seccion cabañas */
+    .contenido_cabanas div{
+        flex-direction: column;
+    }
+    .img_cab{
+        width: 100%;
+    }
+    .card_mio{
+        margin: 10px;
+    }
+    .list_cab{
+        width: 100%;
+    }
+    /* seccion habitaciones */
+    .contenido_habitaciones div{
+        flex-direction: column;
     }
 }
