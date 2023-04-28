@@ -204,7 +204,7 @@ footer h2 {
     /* modificaciones de la portada */
     .portada {
         background-image: url(../img/foto-portada-provisoria-mobile.jpg);
-        height: 780px;
+        height: 680px;
     }
     .portada h1{
         font-size: 4rem;
