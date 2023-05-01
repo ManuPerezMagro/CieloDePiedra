@@ -120,6 +120,10 @@ body {
     overflow: hidden;
     box-shadow: 2px 2px 3px rgb(31, 31, 31);
 }
+.card_mio:hover{
+    border: 2px solid black;
+    box-shadow: 4px 4px 3px rgb(31, 31, 31);
+}
 .contenido_cabanas div div{
     flex-direction: column;
 }
@@ -324,5 +328,29 @@ footer h2 {
         margin-left: 15px;
         margin-top: 10px;
     }
-
+    /* seccion servicios */
+    .contenido_servicios{
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 20% 30% 20%;
+        grid-template-areas:
+        "foto1"
+        "texto1"
+        "foto2"
+        "texto2";
+        margin-bottom: 70px;
+    }
+    .contenido_servicios div{
+        display: flex;
+        justify-content: center;
+    }
+    .contenido_servicios div img{
+        height: 100%;
+    }
+    .texto_desayuno, .texto_almuerzo{
+        margin-top: 15px;
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }
+    /* seccion ubicacion */
+    
 }
