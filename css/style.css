@@ -24,23 +24,23 @@ header{
 
 /* portada del index */
 .portada h1{
-    font-size: 8rem;
+    font-size: 9rem;
     text-align: center;
     color: #dda15e;
-    text-shadow: 2px 3px 3px rgb(0, 0, 0);
+    text-shadow: 3px 4px 3px rgb(0, 0, 0);
 }
 .portada p{
-    font-size: 2rem;
+    font-size: 2.3rem;
     text-align: center;
     color: #fefae0;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 1px black;
 }
 .portada {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url(../img/foto-portada-provisoria.jpg);
+    background-image: url(../Imagenes/Portada/IMG\ -\ 02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 50px;
@@ -60,6 +60,8 @@ h1{
 body {
     margin: auto;
     background-color: #d1bc9c;
+    background-image: url(../Imagenes/PapelTapiz/patron_ornamental.jpg);
+    background-size: contain;
 }
 .boton{
     position: relative;
@@ -83,11 +85,11 @@ body {
     box-shadow: 5px 5px 4px rgb(65, 65, 65);
 }
 .cabañas{
-    background-image: url(../img/foto-cabaña2.jpg);
+    background-image: url(../Imagenes/Cabaña2/20230423_154352.jpg);
     background-size: cover;
 }
 .habitaciones{
-    background-image: url(../img/foto_habitacion_index.jpg);
+    background-image: url(../Imagenes/Habitacion2/20230423_160108.jpg);
     background-size: cover;
 }
 .servicios{
@@ -110,22 +112,21 @@ body {
 
 
 /* cuerpo seccion cabañas */
-.contenido_cabanas div{
-    display: flex;
-}
+
 .card_mio{
+    display: flex;
     border: 1px solid black;
     border-radius: 20px;
     margin: 35px;
     overflow: hidden;
     box-shadow: 2px 2px 3px rgb(31, 31, 31);
+    background-color: #dda15e;
+    background-image: url(../Imagenes/PapelTapiz/textura-tablas-madera.jpg);
+    background-size: cover;
 }
 .card_mio:hover{
     border: 2px solid black;
     box-shadow: 4px 4px 3px rgb(31, 31, 31);
-}
-.contenido_cabanas div div{
-    flex-direction: column;
 }
 .list_cab{
     width: 50%;
@@ -140,22 +141,15 @@ body {
 
 
 /* cuerpo seccion habitaciones */
-.contenido_habitaciones div{
-    display: flex;
-}
-.contenido_habitaciones div div {
-    flex-direction: column;
-}
+
 .galeria{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 150px;
 }
-.galeria img{
-    width: 100%;
-    height: 700px;
-}
+
 .list_galeria{
     display: flex;
 }
@@ -294,13 +288,12 @@ footer h2 {
     /* secciones */
 
     /* seccion cabañas */
-    .contenido_cabanas div{
-        flex-direction: column;
-    }
+    
     .img_cab{
         width: 100%;
     }
     .card_mio{
+        flex-direction: column;
         margin: 10px;
     }
     .list_cab{
