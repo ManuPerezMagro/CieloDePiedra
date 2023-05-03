@@ -54,9 +54,18 @@ h1{
     text-align: center;
     margin: 20px;
 }
-.textos{
-    padding: 10px;
+.texto_tarjetas{
+    font-size: 2rem;
 }
+ul{
+    font-size: 1.5rem;
+}
+
+.titulos{
+    padding: 10px;
+    font-size: 3.5rem;
+}
+
 body {
     margin: auto;
     background-color: #d1bc9c;
@@ -71,12 +80,12 @@ body {
     color: #fefae0;
     text-shadow: 2px 1px 5px rgb(48, 48, 48);
 }
-.cabañas h2, .habitaciones h2, .servicios h2, .ubicacion h2, .turismo h2{
+.card_index h2{
     font-size: 65px;
-    text-shadow: 4px 4px 5px rgb(31, 31, 31);
+    text-shadow: 4px 4px 3px rgb(17, 17, 17);
     padding-top: 60px;
 }
-.cabañas, .habitaciones, .servicios, .ubicacion, .turismo{
+.card_index{
     height: 350px;
     width: 500px;
     text-align: center;
@@ -84,8 +93,11 @@ body {
     border-radius: 20px;
     box-shadow: 5px 5px 4px rgb(65, 65, 65);
 }
+.card_index:hover{
+    box-shadow: 6px 6px 4px rgb(31, 31, 31);
+}
 .cabañas{
-    background-image: url(../Imagenes/Cabaña2/20230423_154352.jpg);
+    background-image: url(../Imagenes/Cabaña2/20230423_154352_mobile.jpg);
     background-size: cover;
 }
 .habitaciones{
@@ -93,7 +105,7 @@ body {
     background-size: cover;
 }
 .servicios{
-    background-image: url(../img/foto_desayuno_index.jpg);
+    background-image: url(../img/foto_desayuno_index_mobile.jpg);
     background-size: cover;
 }
 .ubicacion{
@@ -113,6 +125,11 @@ body {
 
 /* cuerpo seccion cabañas */
 
+main h1{
+    font-size: 4rem;
+    color: #bc6c25;
+    text-shadow: 2px 2px 3px rgb(31, 31, 31);
+}
 .card_mio{
     display: flex;
     border: 1px solid black;
@@ -252,7 +269,7 @@ footer h2 {
 @media screen and (max-width: 600px){
     /* modificaciones de la portada */
     .portada {
-        background-image: url(../img/foto-portada-provisoria-mobile.jpg);
+        background-image: url(../Imagenes/Portada/IMG\ -\ 02\ mobile.jpg);
         height: 680px;
     }
     .portada h1{
@@ -263,12 +280,12 @@ footer h2 {
     }
 
     /* modificaciones del cuerpo index */
-    .cabañas, .habitaciones, .servicios, .ubicacion, .turismo{
+    .card_index{
         height: 300px;
         width: 90%;
 
     }
-    .cabañas h2, .habitaciones h2, .servicios h2, .ubicacion h2, .turismo h2{
+    .card_index h2{
         font-size: 3rem;
         padding-top: 0;
     }
@@ -289,6 +306,9 @@ footer h2 {
 
     /* seccion cabañas */
     
+    main h1{
+        font-size: 2.7rem;
+    }
     .img_cab{
         width: 100%;
     }
@@ -299,13 +319,17 @@ footer h2 {
     .list_cab{
         width: 100%;
     }
+    .titulos{
+        font-size: 2rem;
+    }
+    .texto_tarjetas{
+        font-size: 1.4rem;
+    }
+    ul{
+        font-size: 1.2rem;
+    }
     /* seccion habitaciones */
-    .contenido_habitaciones div{
-        flex-direction: column;
-    }
-    .galeria img{
-        height: 200px;
-    }
+    
     .list_galeria{
         display: block;
         margin-left: 15px;
