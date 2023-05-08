@@ -237,6 +237,9 @@ main h1{
     width: 100%;
     height: 75%;
 }
+.indicaciones_ubicacion h2, .indicaciones_ubicacion p{
+    padding: 10px;
+}
 
 /* pie de pagina */
 footer {
@@ -369,5 +372,14 @@ footer h2 {
         padding-bottom: 45px;
     }
     /* seccion ubicacion */
-    
+    .contenido_ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mapa iframe{
+        height: 450px;
+        margin: 0;
+    }
 }
