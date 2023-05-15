@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bc6c25;
+    color: #fefae0;
+    padding: 35px 15px;
+    margin-top: 25px;
+    h2{
+        text-align: center;
+        color: #fefae0;
+        margin-bottom: 15px;
+    }
+    div{
+        p{
+            font-size: 24px;
+        }
+    }
+}
+#redes_sociales{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    div{
+        a{
+            margin: 15px;
+            img{
+                @media screen and (max-width: 600px){
+                    height: 50px;
+                    width: 50px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

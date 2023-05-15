@@ -1,0 +1,20 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #bc6c25;
+}
+.link-color{
+    color: #dda15e;
+    text-shadow: 1px 1px 3px rgb(48, 48, 48);
+    &:hover{
+        color: #dda15e;
+        text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    }
+}
+.font-size{
+    font-size: 20px;
+}

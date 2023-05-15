@@ -1,0 +1,29 @@
+// %flex_centrado{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// } ejemplo de codigo reutilizable
+
+// .class{
+//     background-color: green;
+//     padding: 10px;
+//     @extend %flex_centrado; 
+// }     muy util para reutilizar codigo.
+
+%card_mio{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 35px;
+    overflow: hidden;
+    box-shadow: 2px 2px 3px rgb(31, 31, 31);
+    background-color: #dda15e;
+    background-image: url(../../Imagenes/PapelTapiz/textura-tablas-madera.jpg);
+    background-size: cover;
+}
+%flex_center_column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

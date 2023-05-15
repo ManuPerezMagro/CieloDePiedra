@@ -1,0 +1,111 @@
+// portada
+
+.portada{
+    @extend %flex_center_column;
+    background-image: url(../../Imagenes/Portada/IMG\ -\ 02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 50px;
+    margin-bottom: 25px;
+    height: 920px;
+    @media screen and (max-width: 600px) {
+        background-image: url(../../Imagenes/Portada/IMG\ -\ 02\ mobile.jpg);
+        height: 680px;
+    }
+    h1{
+        font-size: 9rem;
+        text-align: center;
+        color: #dda15e;
+        text-shadow: 3px 4px 3px rgb(0, 0, 0);
+        @media screen and (max-width: 600px){
+            font-size: 4rem;
+        }
+    }
+    p{
+        font-size: 2.3rem;
+        text-align: center;
+        color: #fefae0;
+        text-shadow: 2px 2px 1px black;
+        @media screen and (max-width: 600px){
+            font-size: 1.5rem;
+        }
+    }
+}
+
+// cuerpo
+body {
+    margin: auto;
+    background-color: #d1bc9c;
+    background-image: url(../../Imagenes/PapelTapiz/patron_ornamental.jpg);
+    background-size: contain;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.menu_index{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    div{
+        @media screen and (max-width: 600px){
+            display: flex;
+            justify-content: center;
+        }
+        a{
+            padding: 10%;
+        }
+    }
+    .card_index{
+        height: 350px;
+        width: 500px;
+        text-align: center;
+        margin: 10px;
+        border-radius: 20px;
+        box-shadow: 5px 5px 4px rgb(65, 65, 65);
+        &:hover{
+            box-shadow: 6px 6px 4px rgb(31, 31, 31);
+        }
+        @media screen and (max-width: 600px){
+            height: 300px;
+            width: 90%;
+        }
+        .boton{
+            position: relative;
+            top: 75px;
+            text-decoration: none;
+            font-size: 55px;
+            color: #fefae0;
+            text-shadow: 2px 1px 5px rgb(48, 48, 48);
+        }
+        h2{
+            font-size: 65px;
+            text-shadow: 4px 4px 3px rgb(17, 17, 17);
+            padding-top: 60px;
+            @media screen and (max-width: 600px){
+                font-size: 3rem;
+                padding-top: 0;
+            }
+        }
+    }
+}
+.cabañas{
+    background-image: url(../../Imagenes/Cabaña2/20230423_154352_mobile.jpg);
+    background-size: cover;
+}
+.habitaciones{
+    background-image: url(../../Imagenes/Habitacion2/20230423_160108.jpg);
+    background-size: cover;
+}
+.servicios{
+    background-image: url(../../img/foto_desayuno_index_mobile.jpg);
+    background-size: cover;
+}
+.ubicacion{
+    background-image: url(../../img/foto-ubicacion2.jpg);
+    background-size: cover;
+}
+.turismo{
+    background-image: url(../../img/foto_turismo_index.jpg);
+    background-size: cover;
+}

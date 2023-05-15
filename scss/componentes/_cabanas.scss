@@ -1,0 +1,61 @@
+main{
+    h1{
+        font-size: 4rem;
+        color: #bc6c25;
+        text-shadow: 2px 2px 3px rgb(31, 31, 31);
+        @media screen and (max-width: 600px){
+            font-size: 2.7rem;
+        } 
+    }
+    .contenido_cabanas{
+        .card_mio{
+            @media screen and (max-width: 600px){
+                flex-direction: column;
+                margin: 10px;
+            }
+            @extend %card_mio;
+            &:hover{
+                border: 2px solid black;
+                box-shadow: 4px 4px 3px rgb(31, 31, 31);
+            }
+            .img_cab{
+                width: 80%;
+                @media screen and (max-width: 600px){
+                    width: 100%;
+                }
+            }
+            .list_cab{
+                width: 50%;
+                margin: 20px;
+                @media screen and (max-width: 600px){
+                    width: 100%;
+                }
+                .titulos{
+                    padding: 10px;
+                    font-size: 3.5rem;
+                    @media screen and (max-width: 600px){
+                        font-size: 2rem;
+                    }
+                }
+                .texto_tarjetas{
+                    font-size: 2rem;
+                    @media screen and (max-width: 600px){
+                        font-size: 1.4rem;
+                    }
+                }
+                ul{
+                    font-size: 1.5rem;
+                    @media screen and (max-width: 600px){
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+        .cab_reverse{
+            flex-direction: row-reverse;
+            @media screen and (max-width: 600px){
+                flex-direction: column;
+            }
+        }
+    }
+}
