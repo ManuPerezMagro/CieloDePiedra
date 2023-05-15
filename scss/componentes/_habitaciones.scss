@@ -70,12 +70,14 @@ section{
     .galeria{
         margin: 0 150px;
         font-size: 2rem;
-        justify-content: start;
-        align-items: start;
+        justify-content: center;
+        align-items: center;
         @media screen and (max-width: 600px){
             font-size: 1.4rem;
             margin: 0 10px;
             width: 95%;
+            justify-content: start;
+            align-items: start;
         }
         p{
             @media screen and (max-width: 600px){
