@@ -13,6 +13,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <!-- animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Cielo de Piedra</title>
 </head>
 <body>
@@ -50,23 +53,23 @@
     </header>
     <main> 
         <div class="portada"> <!-- portada del index-->
-            <h1>CIELO DE PIEDRA</h1>
-            <p>Cabañas & Petit Hotel</p>
+            <h1 class="animate__animated animate__fadeInUp">CIELO DE PIEDRA</h1>
+            <p class="animate__animated animate__pulse">Cabañas & Petit Hotel</p>
         </div>
         <section class="menu_index"> <!-- cuerpo del index-->
-            <div class="cabañas card_index">
+            <div class="cabañas card_index" data-aos="zoom-in-right">
                 <a href="paginas/seccion_cabañas.html" class="boton"><h2>Cabañas</h2></a>
             </div>
-            <div class="habitaciones card_index">
+            <div class="habitaciones card_index" data-aos="zoom-in-down">
                 <a href="paginas/seccion_habitaciones.html" class="boton"><h2>Habitaciones</h2></a>
             </div>
-            <div class="servicios card_index">
+            <div class="servicios card_index" data-aos="zoom-in-left">
                 <a href="paginas/seccion_servicios.html" class="boton"><h2>Servicios</h2></a>
             </div>
-            <div class="ubicacion card_index">
+            <div class="ubicacion card_index" data-aos="zoom-in-right">
                 <a href="paginas/seccion_ubicacion.html" class="boton"><h2>Ubicación</h2></a>
             </div>
-            <div class="turismo card_index">
+            <div class="turismo card_index" data-aos="zoom-in-left">
                 <a href="" class="boton"><h2>Turismo</h2></a>
             </div>
         </section>
@@ -90,5 +93,9 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

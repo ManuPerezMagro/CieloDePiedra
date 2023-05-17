@@ -5,13 +5,13 @@
 }
 
 header{
-    background-color: #bc6c25;
+    background-color: $color_princ;
 }
 .link-color{
-    color: #dda15e;
+    color: $color_sec;
     text-shadow: 1px 1px 3px rgb(48, 48, 48);
     &:hover{
-        color: #dda15e;
+        color: $color_terc;
         text-shadow: 1px 2px 3px rgb(0, 0, 0);
     }
 }

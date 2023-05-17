@@ -36,10 +36,15 @@ main{
                 padding: 10px;
                 font-size: 1.1rem;
                 padding-top: 0;
+                text-align: center
             }
         }
         .card_mio{
             @extend %card_mio;
+            &:hover{
+                border: 2px solid black;
+                box-shadow: 4px 4px 3px rgb(31, 31, 31);
+            }
         }
     }
 }

@@ -1,13 +1,13 @@
 footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #bc6c25;
-    color: #fefae0;
-    padding: 35px 15px;
-    margin-top: 25px;
+    display: map-get($footer , display);
+    justify-content: map-get($footer , just-cont);
+    background-color: map-get($footer , fondo);
+    color: map-get($footer , color-letra);
+    padding: map-get($footer , padd);
+    margin-top: map-get($footer , marg-t);
     h2{
         text-align: center;
-        color: #fefae0;
+        color: $color_terc;
         margin-bottom: 15px;
     }
     div{

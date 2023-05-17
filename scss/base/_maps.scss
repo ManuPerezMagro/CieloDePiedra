@@ -1,6 +1,15 @@
 // mapas que se definen con &
-// &nombre:(
+// $nombre:(
 //       carac: valor,
 //       carac2: valor,
 //       carac3: valor
-// );     luego se llaman con map-get(&nombre, carac).
+// );     luego se llaman con map-get($nombre, carac).
+
+$footer:(
+    display: flex,
+    just-cont: space-between,
+    fondo: $color_princ,
+    color-letra: $color_terc,
+    padd: 35px 15px,
+    marg-t: 25px,
+);
