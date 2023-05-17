@@ -2,14 +2,14 @@
 
 .portada{
     @extend %flex_center_column;
-    background-image: url(../../Imagenes/Portada/IMG\ -\ 02.jpg);
+    background-image: url(../Imagenes/Portada/IMG\ -\ 02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 50px;
     margin-bottom: 25px;
     height: 920px;
     @media screen and (max-width: 600px) {
-        background-image: url(../../Imagenes/Portada/IMG\ -\ 02\ mobile.jpg);
+        background-image: url(../Imagenes/Portada/IMG\ -\ 02\ mobile.jpg);
         height: 680px;
     }
     h1{
@@ -36,7 +36,7 @@
 body {
     margin: auto;
     background-color: #d1bc9c;
-    background-image: url(../../Imagenes/PapelTapiz/patron_ornamental.jpg);
+    background-image: url(../Imagenes/PapelTapiz/patron_ornamental.jpg);
     background-size: contain;
 }
 h1{
@@ -90,22 +90,22 @@ h1{
     }
 }
 .cabañas{
-    background-image: url(../../Imagenes/Cabaña2/20230423_154352_mobile.jpg);
+    background-image: url(../Imagenes/Cabaña2/20230423_154352_mobile.jpg);
     background-size: cover;
 }
 .habitaciones{
-    background-image: url(../../Imagenes/Habitacion2/20230423_160108.jpg);
+    background-image: url(../Imagenes/Habitacion2/20230423_160108.jpg);
     background-size: cover;
 }
 .servicios{
-    background-image: url(../../img/foto_desayuno_index_mobile.jpg);
+    background-image: url(../img/foto_desayuno_index_mobile.jpg);
     background-size: cover;
 }
 .ubicacion{
-    background-image: url(../../img/foto-ubicacion2.jpg);
+    background-image: url(../img/foto-ubicacion2.jpg);
     background-size: cover;
 }
 .turismo{
-    background-image: url(../../img/foto_turismo_index.jpg);
+    background-image: url(../img/foto_turismo_index.jpg);
     background-size: cover;
 }
