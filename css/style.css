@@ -11,7 +11,7 @@ main .contenido_ubicacion .card_mio, section .card_mio, .contenido_habitaciones 
   background-size: cover;
 }
 
-section .card_mio, .portada {
+main .contenido_ubicacion .indicaciones_ubicacion, section .card_mio, .portada {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,6 +22,10 @@ section .card_mio, .portada {
   font-family: "Roboto", sans-serif;
   padding: 0;
   margin: 0;
+}
+
+.icon-mio {
+  margin: 20px 0;
 }
 
 header {
@@ -439,12 +443,14 @@ main .contenido_servicios .texto_almuerzo {
     grid-template-rows: 30% 20% 30% 20%;
     grid-template-areas: "foto1" "texto1" "foto2" "texto2";
     margin-bottom: 70px;
+    row-gap: 0;
   }
 }
 @media screen and (max-width: 600px) {
   main .contenido_servicios div {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
 }
 main .contenido_servicios div img {
@@ -455,7 +461,7 @@ main .contenido_servicios div img {
 }
 @media screen and (max-width: 600px) {
   main .contenido_servicios div img {
-    height: 100%;
+    height: 75%;
   }
 }
 
@@ -472,6 +478,7 @@ main .contenido_ubicacion {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0;
   }
 }
 main .contenido_ubicacion .mapa iframe {
@@ -484,12 +491,6 @@ main .contenido_ubicacion .mapa iframe {
     height: 450px;
     margin: 0;
   }
-}
-main .contenido_ubicacion .indicaciones_ubicacion {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 main .contenido_ubicacion .indicaciones_ubicacion img {
   width: 100%;
