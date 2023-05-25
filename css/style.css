@@ -120,6 +120,7 @@ body {
   background-color: #d1bc9c;
   background-image: url(../Imagenes/PapelTapiz/patron_ornamental.jpg);
   background-size: contain;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -203,6 +204,9 @@ h1 {
   background-size: cover;
 }
 
+main {
+  overflow-x: hidden;
+}
 main h1 {
   font-size: 4rem;
   color: #bc6c25;
