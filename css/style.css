@@ -399,6 +399,9 @@ section .galeria .list_galeria li {
   }
 }
 
+main {
+  overflow-y: hidden;
+}
 main .contenido_servicios {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
