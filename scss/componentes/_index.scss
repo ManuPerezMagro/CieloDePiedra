@@ -2,14 +2,14 @@
 
 .portada{
     @extend %flex_center_column;
-    background-image: url(../Imagenes/Portada/IMG\ -\ 02.jpg);
+    background-image: url(../Imagenes/Portada/IMG-02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 50px;
     margin-bottom: 25px;
     height: 920px;
     @media screen and (max-width: 600px) {
-        background-image: url(../Imagenes/Portada/IMG\ -\ 02\ mobile.jpg);
+        background-image: url(../Imagenes/Portada/IMG-02mobile.jpg);
         height: 680px;
     }
     h1{

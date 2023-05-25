@@ -79,7 +79,7 @@ footer div p {
 }
 
 .portada {
-  background-image: url(../Imagenes/Portada/IMG\ -\ 02.jpg);
+  background-image: url(../Imagenes/Portada/IMG-02.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px 50px;
@@ -88,7 +88,7 @@ footer div p {
 }
 @media screen and (max-width: 600px) {
   .portada {
-    background-image: url(../Imagenes/Portada/IMG\ -\ 02\ mobile.jpg);
+    background-image: url(../Imagenes/Portada/IMG-02mobile.jpg);
     height: 680px;
   }
 }
