@@ -510,7 +510,6 @@ main .contenido_ubicacion .indicaciones_ubicacion p {
   text-align: center;
 }
 main .contenido_ubicacion .card_mio:hover {
-  border: 2px solid black;
   box-shadow: 4px 4px 3px rgb(31, 31, 31);
 }
 

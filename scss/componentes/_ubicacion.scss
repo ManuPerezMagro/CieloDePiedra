@@ -39,8 +39,7 @@ main{
         }
         .card_mio{
             @extend %card_mio;
-            &:hover{
-                border: 2px solid black;
+            &:hover{ 
                 box-shadow: 4px 4px 3px rgb(31, 31, 31);
             }
         }
